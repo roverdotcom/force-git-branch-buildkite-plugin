@@ -1,0 +1,10 @@
+name: Force Git Branch
+description: Runs step on a alternative git branch
+author: https://github.com/roverdotcom
+requirements: 
+  - git
+configuration:
+  properties:
+    branch:
+      type: string
+  additionalProperties: false

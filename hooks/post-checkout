@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+BRANCH="$BUILDKITE_PLUGIN_FORCE_GIT_BRANCH_BRANCH"
+
+echo "--- Forcing git branch"
+
+git checkout $BRANCH
